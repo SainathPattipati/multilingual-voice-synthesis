@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=65.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multilingual-voice-synthesis"
+version = "1.0.0"
+description = "Multilingual text-to-speech with voice cloning"
+requires-python = ">=3.9"
+authors = [{name = "Sainath Pattipati"}]
+dependencies = ["elevenlabs>=0.2.0", "langdetect>=1.0.9", "pydub>=0.25.0", "numpy>=1.21.0", "pydantic>=1.10.0"]
